@@ -13,7 +13,13 @@ A simple and elegant task management application built with React Native and Exp
 - **Form Validation**: Ensures you provide valid input when creating tasks.
 - **Responsive UI**: A clean and modern user interface that looks great on any device.
 
-## 🚀 Tech Stack
+## 📸 Screenshots
+
+|                           Welcome Screen                           |                         Main App Screen                         |
+| :----------------------------------------------------------------: | :-------------------------------------------------------------: |
+| <img src="./assets/welcome.png" alt="Welcome Screen" width="300"/> | <img src="./assets/app.png" alt="Main App Screen" width="300"/> |
+
+## � Tech Stack
 
 - **Framework**: [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/)
 - **UI Library**: [React Native Paper](https://reactnativepaper.com/)
