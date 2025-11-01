@@ -2,6 +2,12 @@
 
 A simple and elegant task management application built with React Native and Expo. It helps you organize your tasks, focus on what's important, and be more productive.
 
+## 📸 Screenshots
+
+|                                                       Welcome Screen                                                       |                                                     Main App Screen                                                     |
+| :------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/JavDev95/task-manager/blob/main/assets/images/welcome.png" alt="Welcome Screen" width="300"/> | <img src="https://github.com/JavDev95/task-manager/blob/main/assets/images/app.png" alt="Main App Screen" width="300"/> |
+
 ## ✨ Features
 
 - **Create & Manage Tasks**: Easily add, update, and delete tasks.
@@ -12,12 +18,6 @@ A simple and elegant task management application built with React Native and Exp
 - **Pull to Refresh**: Update your task list with a simple gesture.
 - **Form Validation**: Ensures you provide valid input when creating tasks.
 - **Responsive UI**: A clean and modern user interface that looks great on any device.
-
-## 📸 Screenshots
-
-|                                                       Welcome Screen                                                       |                                                     Main App Screen                                                     |
-| :------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://github.com/JavDev95/task-manager/blob/main/assets/images/welcome.png" alt="Welcome Screen" width="300"/> | <img src="https://github.com/JavDev95/task-manager/blob/main/assets/images/app.png" alt="Main App Screen" width="300"/> |
 
 ## 🚀 Tech Stack
 
