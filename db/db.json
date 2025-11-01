@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Design the new welcome screen",
+      "completed": true,
+      "priority": "high",
+      "createdAt": "2024-07-20T10:00:00.000Z",
+      "updatedAt": "2024-07-21T11:30:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Develop the task list component",
+      "completed": true,
+      "priority": "high",
+      "createdAt": "2024-07-21T14:00:00.000Z",
+      "updatedAt": "2024-07-22T16:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Integrate React Query for data fetching",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2024-07-22T18:00:00.000Z",
+      "updatedAt": "2024-07-22T18:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Set up Zustand for global state",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2024-07-23T09:00:00.000Z",
+      "updatedAt": "2024-07-23T09:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Implement filtering logic",
+      "completed": false,
+      "priority": "high",
+      "createdAt": "2024-07-24T11:00:00.000Z",
+      "updatedAt": "2024-07-24T11:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "title": "Create custom theme with new palette",
+      "completed": true,
+      "priority": "low",
+      "createdAt": "2024-07-25T15:00:00.000Z",
+      "updatedAt": "2024-07-25T15:30:00.000Z"
+    },
+    {
+      "id": "7",
+      "title": "Add AsyncStorage for persistence",
+      "completed": false,
+      "priority": "medium",
+      "createdAt": "2024-07-26T10:00:00.000Z",
+      "updatedAt": "2024-07-26T10:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "title": "Write unit tests for the TaskList component",
+      "completed": false,
+      "priority": "low",
+      "createdAt": "2024-07-27T13:00:00.000Z",
+      "updatedAt": "2024-07-27T13:00:00.000Z"
+    },
+    {
+      "id": "9",
+      "title": "Fix the priority filter menu bug",
+      "completed": true,
+      "priority": "high",
+      "createdAt": "2024-07-28T09:00:00.000Z",
+      "updatedAt": "2024-07-28T10:15:00.000Z"
+    },
+    {
+      "id": "10",
+      "title": "Prepare for app store submission",
+      "completed": false,
+      "priority": "high",
+      "createdAt": "2024-07-29T16:00:00.000Z",
+      "updatedAt": "2024-07-29T16:00:00.000Z"
+    }
+  ]
+}

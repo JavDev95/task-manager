@@ -1,50 +1,95 @@
-# Welcome to your Expo app 👋
+# Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and elegant task management application built with React Native and Expo. It helps you organize your tasks, focus on what's important, and be more productive.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- **Create & Manage Tasks**: Easily add, update, and delete tasks.
+- **Task Prioritization**: Assign priorities (High, Medium, Low) to your tasks.
+- **Status Filtering**: Filter tasks by their status (All, Pending, Completed).
+- **Priority Filtering**: Filter tasks by their priority level.
+- **Light & Dark Mode**: Switch between light and dark themes for your comfort.
+- **Pull to Refresh**: Update your task list with a simple gesture.
+- **Form Validation**: Ensures you provide valid input when creating tasks.
+- **Responsive UI**: A clean and modern user interface that looks great on any device.
 
-   ```bash
-   npm install
-   ```
+## 🚀 Tech Stack
 
-2. Start the app
+- **Framework**: [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/)
+- **UI Library**: [React Native Paper](https://reactnativepaper.com/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand) for global state (theme, filters)
+- **Data Fetching & Caching**: [TanStack Query (React Query)](https://tanstack.com/query/latest)
+- **Forms**: [React Hook Form](https://react-hook-form.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Mock Backend**: [json-server](https://github.com/typicode/json-server)
 
-   ```bash
-   npx expo start
-   ```
+## 🧠 Architectural Choices
 
-In the output, you'll find options to open the app in a
+### State Management: Zustand
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+For global state management (like theme and filters), this project uses **Zustand**. Zustand is optimal for simplicity, minimal boilerplate, with outstanding performance, lightweight and hook based modern global state solution.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Data Fetching: TanStack Query
 
-## Get a fresh project
+All asynchronous operations, like fetching and updating tasks, are handled by **TanStack Query (React Query)**. It provides excellent tools for caching, background refetching, and managing server state, which simplifies data handling and improves the user experience with features like optimistic updates and loading states.
 
-When you're ready, run:
+## 🏁 Getting Started
 
-```bash
-npm run reset-project
-```
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Prerequisites
 
-## Learn more
+- [Node.js](https://nodejs.org/) (v18 or newer recommended)
+- `npm` or `yarn` package manager
+- Expo Go app on your iOS or Android device, or a configured simulator/emulator.
 
-To learn more about developing your project with Expo, look at the following resources:
+### Installation
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1.  **Clone the repository:**
 
-## Join the community
+    ```bash
+    git clone <repository-url>
+    cd task-manager
+    ```
 
-Join our community of developers creating universal apps.
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Running the Application
+
+This project requires two processes to run simultaneously: the mock API server (`json-server`) and the Expo development server.
+
+You will need two separate terminal windows to run them.
+
+1.  **Start the mock API server:**
+    In your first terminal, run the following command to start the `json-server`. This will serve your `db.json` file on `http://localhost:3000`.
+
+    ```bash
+    npm run start:db
+    ```
+
+2.  **Start the Expo development server:**
+    In your second terminal, run the `start` command.
+
+    ```bash
+    npm run start
+    ```
+
+3.  **Connect your device:**
+    Once the Expo server is running, you will see a QR code in the terminal. Scan this QR code with the **Expo Go** app on your physical device. Alternatively, you can run the app on a simulator (e.g., 'i' for iOS Simulator, 'a' for Android Emulator).
+
+### Available Scripts
+
+Here are the most important scripts available in `package.json`:
+
+- `npm start`: Starts the Expo development server only.
+- `npm run start:db`: Starts the `json-server` mock database only.
+- `npm run start:ios`: Starts the Expo dev server and attempts to launch the iOS simulator.
+- `npm run start:android`: Starts the Expo dev server and attempts to launch the Android emulator.
+- `npm run lint`: Lints the project files using ESLint.
+
+---
+
+Happy tasking! 🎉
