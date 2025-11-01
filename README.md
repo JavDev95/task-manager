@@ -15,11 +15,11 @@ A simple and elegant task management application built with React Native and Exp
 
 ## 📸 Screenshots
 
-|                           Welcome Screen                           |                         Main App Screen                         |
-| :----------------------------------------------------------------: | :-------------------------------------------------------------: |
-| <img src="./assets/welcome.png" alt="Welcome Screen" width="300"/> | <img src="./assets/app.png" alt="Main App Screen" width="300"/> |
+|                                                       Welcome Screen                                                       |                                                     Main App Screen                                                     |
+| :------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/JavDev95/task-manager/blob/main/assets/images/welcome.png" alt="Welcome Screen" width="300"/> | <img src="https://github.com/JavDev95/task-manager/blob/main/assets/images/app.png" alt="Main App Screen" width="300"/> |
 
-## � Tech Stack
+## 🚀 Tech Stack
 
 - **Framework**: [React Native](https://reactnative.dev/) with [Expo](https://expo.dev/)
 - **UI Library**: [React Native Paper](https://reactnativepaper.com/)
